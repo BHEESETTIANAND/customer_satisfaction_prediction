@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import joblib
 
-model=joblib.load("customer_satisfaction_prediction\RF.pkl")
+model=joblib.load("RF.pkl")
 st.title("Customer satisfaction Prediction")
 
 st.markdown("enter the deatils mentioned below to predict whether the customer is satisfied or not")
