@@ -1,0 +1,40 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.0
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.4.2
+mlflow_version: 2.12.1
+model_size_bytes: 91115
+model_uuid: 70d43bfe2de7476fba71563bed26b319
+run_id: 61ab1b7bc89e4775aa2b03a66f640427
+signature:
+  inputs: '[{"type": "long", "name": "Gender", "required": true}, {"type": "long",
+    "name": "Customer Type", "required": true}, {"type": "long", "name": "Age", "required":
+    true}, {"type": "long", "name": "Type of Travel", "required": true}, {"type":
+    "long", "name": "Class", "required": true}, {"type": "long", "name": "Flight Distance",
+    "required": true}, {"type": "long", "name": "Inflight wifi service", "required":
+    true}, {"type": "long", "name": "Departure/Arrival time convenient", "required":
+    true}, {"type": "long", "name": "Ease of Online booking", "required": true}, {"type":
+    "long", "name": "Gate location", "required": true}, {"type": "long", "name": "Food
+    and drink", "required": true}, {"type": "long", "name": "Online boarding", "required":
+    true}, {"type": "long", "name": "Seat comfort", "required": true}, {"type": "long",
+    "name": "Inflight entertainment", "required": true}, {"type": "long", "name":
+    "On-board service", "required": true}, {"type": "long", "name": "Leg room service",
+    "required": true}, {"type": "long", "name": "Baggage handling", "required": true},
+    {"type": "long", "name": "Checkin service", "required": true}, {"type": "long",
+    "name": "Inflight service", "required": true}, {"type": "long", "name": "Cleanliness",
+    "required": true}, {"type": "long", "name": "Departure Delay in Minutes", "required":
+    true}, {"type": "double", "name": "Arrival Delay in Minutes", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2024-05-07 06:50:27.638820'

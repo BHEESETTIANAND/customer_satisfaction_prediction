@@ -1,0 +1,1 @@
+[{'classifier__criterion': ['gini', 'entropy'], 'classifier__max_depth': <scipy.stats._distn_infrastructure.rv_discrete_frozen object at 0x000001F867F42560>}]

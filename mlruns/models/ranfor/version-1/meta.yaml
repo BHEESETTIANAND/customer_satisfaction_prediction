@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1715065360056
+current_stage: Production
+description: ''
+last_updated_timestamp: 1715065398394
+name: ranfor
+run_id: ac4363114e06444791cfd72867189bbe
+run_link: ''
+source: file:///d:/satisfication%20prediction/mlruns/400758323168555701/ac4363114e06444791cfd72867189bbe/artifacts/model
+status: READY
+status_message: null
+storage_location: file:///d:/satisfication%20prediction/mlruns/400758323168555701/ac4363114e06444791cfd72867189bbe/artifacts/model
+user_id: null
+version: 1

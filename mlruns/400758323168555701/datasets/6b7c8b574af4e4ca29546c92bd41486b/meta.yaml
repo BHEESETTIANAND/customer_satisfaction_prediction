@@ -1,0 +1,24 @@
+digest: 102645a9
+name: dataset
+profile: '{"num_rows": 20780, "num_elements": 457160}'
+schema: '{"mlflow_colspec": [{"type": "long", "name": "Gender", "required": true},
+  {"type": "long", "name": "Customer Type", "required": true}, {"type": "long", "name":
+  "Age", "required": true}, {"type": "long", "name": "Type of Travel", "required":
+  true}, {"type": "long", "name": "Class", "required": true}, {"type": "long", "name":
+  "Flight Distance", "required": true}, {"type": "long", "name": "Inflight wifi service",
+  "required": true}, {"type": "long", "name": "Departure/Arrival time convenient",
+  "required": true}, {"type": "long", "name": "Ease of Online booking", "required":
+  true}, {"type": "long", "name": "Gate location", "required": true}, {"type": "long",
+  "name": "Food and drink", "required": true}, {"type": "long", "name": "Online boarding",
+  "required": true}, {"type": "long", "name": "Seat comfort", "required": true}, {"type":
+  "long", "name": "Inflight entertainment", "required": true}, {"type": "long", "name":
+  "On-board service", "required": true}, {"type": "long", "name": "Leg room service",
+  "required": true}, {"type": "long", "name": "Baggage handling", "required": true},
+  {"type": "long", "name": "Checkin service", "required": true}, {"type": "long",
+  "name": "Inflight service", "required": true}, {"type": "long", "name": "Cleanliness",
+  "required": true}, {"type": "long", "name": "Departure Delay in Minutes", "required":
+  true}, {"type": "double", "name": "Arrival Delay in Minutes", "required": true}]}'
+source: '{"tags": {"mlflow.user": "B MOHAN RAO", "mlflow.source.name": "d:\\satisfication
+  prediction\\venv\\lib\\site-packages\\ipykernel_launcher.py", "mlflow.source.type":
+  "LOCAL"}}'
+source_type: code
